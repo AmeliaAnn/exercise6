@@ -13,12 +13,13 @@ public class Main {
             int y = in.nextInt();
             System.out.println("Input z: ");
             int z = in.nextInt();
-            int res = ((x + y + z)/3)/2;
+            int res = ((x + y + z)/3);
+            System.out.println("Среднее арифметическое: " + res);
+            res = res / 2;
              if (res > 3)
             System.out.print("Программа выполнена корректно");
          else
          System.out.println("Incorrect!");
-
             in.close();
     }
 }

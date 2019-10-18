@@ -18,8 +18,6 @@ public class Main {
             res = res / 2;
              if (res > 3)
             System.out.print("Программа выполнена корректно");
-         else
-         System.out.println("Incorrect!");
             in.close();
     }
 }
